@@ -1,13 +1,13 @@
 {
-  "versionCode": 10,
-  "versionName": "1.5.1",
-  "notes": "1. 新增「定时报时」：默认关闭，可选10/15/30/60分钟，到点语音播报\n2. 更新检查升级为多线路自动切换（国内免VPN）\n3. 细节修复与体验优化",
-  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.1.apk",
+  "versionCode": 11,
+  "versionName": "1.5.2",
+  "notes": "① 修复更新卡按钮样式与错位；② 全流程更新测试版本",
+  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.2.apk",
   "urls": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.1.apk",
-    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.1.apk",
-    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.5.1.apk",
-    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.1.apk",
-    "https://kappa.lol/IQciah"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.2.apk",
+    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.2.apk",
+    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.5.2.apk",
+    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.2.apk",
+    "https://kappa.lol/r5xfZM"
   ]
 }
