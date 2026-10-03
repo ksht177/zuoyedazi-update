@@ -1,13 +1,13 @@
 {
-  "versionCode": 13,
-  "versionName": "1.5.4",
-  "notes": "修复：隐藏伙伴后无法恢复显示的问题",
-  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.4.apk",
+  "versionCode": 14,
+  "versionName": "1.5.5",
+  "notes": "新增：启动自动检测更新，发现新版本可「立刻下载」或「下次一定」（选稍后则明天8点后再提醒）",
+  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.5.apk",
   "urls": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.4.apk",
-    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.4.apk",
-    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.5.4.apk",
-    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.4.apk",
-    "https://kappa.lol/6bRTNq"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.5.apk",
+    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.5.apk",
+    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.5.5.apk",
+    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.5.apk",
+    "https://kappa.lol/wKdJWU"
   ]
 }
