@@ -1,13 +1,13 @@
 {
-  "versionCode": 12,
-  "versionName": "1.5.3",
-  "notes": "① 新增：首次启动权限引导（音乐读取 / 安装未知应用）\n② 安装调起与更新体验优化",
-  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.3.apk",
+  "versionCode": 13,
+  "versionName": "1.5.4",
+  "notes": "修复：隐藏伙伴后无法恢复显示的问题",
+  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.4.apk",
   "urls": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.3.apk",
-    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.3.apk",
-    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.5.3.apk",
-    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.3.apk",
-    "https://kappa.lol/y2bk0u"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.4.apk",
+    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.4.apk",
+    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.5.4.apk",
+    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.4.apk",
+    "https://kappa.lol/6bRTNq"
   ]
 }
