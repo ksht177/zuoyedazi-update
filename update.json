@@ -1,13 +1,13 @@
 {
-  "versionCode": 11,
-  "versionName": "1.5.2",
-  "notes": "① 修复更新卡按钮样式与错位；② 全流程更新测试版本",
-  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.2.apk",
+  "versionCode": 12,
+  "versionName": "1.5.3",
+  "notes": "① 新增：首次启动权限引导（音乐读取 / 安装未知应用）\n② 安装调起与更新体验优化",
+  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.3.apk",
   "urls": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.2.apk",
-    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.2.apk",
-    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.5.2.apk",
-    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.2.apk",
-    "https://kappa.lol/r5xfZM"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.3.apk",
+    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.3.apk",
+    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.5.3.apk",
+    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.5.3.apk",
+    "https://kappa.lol/y2bk0u"
   ]
 }
