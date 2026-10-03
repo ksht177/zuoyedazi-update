@@ -1,15 +1,18 @@
 {
   "versionCode": 19,
-  "versionName": "Beta1.6.0-test",
-  "notes": "（签名演练·伪造签名版 可忽略）",
-  "url": "https://example.com/none.apk",
+  "versionName": "Beta1.6.0",
+  "notes": "修复了某些已知问题",
+  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-vBeta1.6.0.apk?v=19a",
   "urls": [
-    "https://example.com/none.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-vBeta1.6.0.apk?v=19a",
+    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-vBeta1.6.0.apk?v=19a",
+    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-vBeta1.6.0.apk?v=19a",
+    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-vBeta1.6.0.apk?v=19a"
   ],
   "sig": {
     "alg": "RS256",
-    "hash": "abababababababababababababababababababababababababababababababab",
-    "value": "WHywmBdg31kG7QzIp/q4JDRAQdN/fPbBOn6EnhG8KDfRmlSXbfbcuKdij+dZnV7DpMXBpQDsGmRhVoTmAKp8niqIsshQwGKqkAnhPp+z5lJRjXaWymYIPSP39+XTDU61Dh6yW/N2wfaso895DWGKrNzEi4nU8afRmU93wFgRDwUYDJzZt2FaykJ1ZuZPabAtwKPNp/GuMnnl3atRuAND8pzvpFU4uh8DhboVBu1fO+J+NE3jFpS5e4GTvGJXY5NpDj2U5szYkCwMoZ5jL5OrDtLuJMOAhHTs9zulT6GfcRu9OJd55p+eNjKQtCXL682DgSkD3qY0QCoUl2/IRLcX9w==",
-    "ts": 1791055757431
+    "hash": "b3772aa638f5dcd457a7fca2e20e0ad526e5ed244d76c97babdc50d1d84d014a",
+    "value": "SrBhdPu4hZFkPNRnZ4hV67bHSL5ZCCGib/wM7Kzg169MnvkW1aXWIQjKEycorIeKRJi42eM8jreshqQ0RnmVBN8fMtK6g44tnbwtiMCdfXqussJDXyioopnDawp03EN3tG6BGvosDKsGsLTpN4H6Hy4TfgiPZSmkeIN5szBN5vOaxrKAsRnegCx9nddlJNpVNi1M1gihxqyvBElCwccC+YdBhuavK5pF1VUz9/T5tFvVRpJu+ueM9Hhg2UUgRLr7291PAAhBv03AV8LqI+sGdGsVjo+47Jzoem5G+dGVXOXGEMNTujL/CxLBm1oPP3FyFw1eJRjALuAbuCVXuHI/cA==",
+    "ts": 1791056054043
   }
 }
