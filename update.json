@@ -1,9 +1,15 @@
 {
   "versionCode": 19,
   "versionName": "Beta1.6.0-test",
-  "notes": "（签名演练·无签名版 可忽略）",
+  "notes": "（签名演练·伪造签名版 可忽略）",
   "url": "https://example.com/none.apk",
   "urls": [
     "https://example.com/none.apk"
-  ]
+  ],
+  "sig": {
+    "alg": "RS256",
+    "hash": "abababababababababababababababababababababababababababababababab",
+    "value": "WHywmBdg31kG7QzIp/q4JDRAQdN/fPbBOn6EnhG8KDfRmlSXbfbcuKdij+dZnV7DpMXBpQDsGmRhVoTmAKp8niqIsshQwGKqkAnhPp+z5lJRjXaWymYIPSP39+XTDU61Dh6yW/N2wfaso895DWGKrNzEi4nU8afRmU93wFgRDwUYDJzZt2FaykJ1ZuZPabAtwKPNp/GuMnnl3atRuAND8pzvpFU4uh8DhboVBu1fO+J+NE3jFpS5e4GTvGJXY5NpDj2U5szYkCwMoZ5jL5OrDtLuJMOAhHTs9zulT6GfcRu9OJd55p+eNjKQtCXL682DgSkD3qY0QCoUl2/IRLcX9w==",
+    "ts": 1791055757431
+  }
 }
