@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>作业搭子 · 下载最新版</title>
+<style>
+:root{--bg1:#0b0e14;--bg2:#131824;--card:#1a2233cc;--br:#2b3852;--text:#e8eef7;--muted:#8fa2c0;--accent:#ffd166;}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{margin:0;padding:24px 16px 46px;background:linear-gradient(160deg,var(--bg1),var(--bg2));color:var(--text);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;min-height:100vh;}
+h1{font-size:22px;margin:6px 0 2px;}
+.sub{color:var(--muted);font-size:12px;margin:0 0 16px;}
+.card{background:var(--card);border:1px solid var(--br);border-radius:16px;padding:16px;}
+.ver{font-size:18px;font-weight:800;margin:0 0 4px;}
+.notes{color:var(--muted);font-size:13px;line-height:1.7;margin:8px 0 0;white-space:pre-wrap;}
+button.dl{width:100%;border:none;border-radius:14px;padding:15px 16px;font-size:16px;font-weight:800;color:#231a05;background:linear-gradient(135deg,var(--accent),#ffb84d);margin-top:16px;cursor:pointer;}
+button.dl:disabled{opacity:.55;}
+button.dl:active{transform:scale(.98);}
+.tip{font-size:12px;color:var(--muted);line-height:1.8;margin-top:12px;}
+.tip b{color:var(--text);}
+.foot{font-size:11px;color:var(--muted);text-align:center;margin-top:20px;line-height:1.8;}
+#st{font-size:12px;color:var(--muted);margin-top:10px;min-height:14px;}
+</style>
+</head>
+<body>
+<h1>📥 作业搭子</h1>
+<div class="sub">官方下载页 · 学习计时 · 伙伴养成</div>
+
+<div class="card">
+  <div class="ver" id="verName">⏳ 正在获取最新版本…</div>
+  <div class="notes" id="notes"></div>
+  <button class="dl" id="dlBtn" disabled>⏳ 获取中…</button>
+  <div class="tip">
+    <b>安装方法：</b>下载完成后，在通知栏或「文件管理 → 下载」里点开安装包，按提示安装即可（首次安装需在系统弹窗允许“安装未知应用”）。<br>
+    <b>无法下载？</b>点右上角「⋯」→「在浏览器打开」再试（微信内无法直接下载安装包）。
+  </div>
+  <div id="st"></div>
+</div>
+
+<div class="foot">作业搭子 ZuoYeDaZi · 官方更新通道</div>
+
+<script>
+(function(){
+  var $ = function(id){ return document.getElementById(id); };
+  var FALLBACK = 'https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.6.0.apk';
+  var LINES = [
+    'https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/update.json',
+    'https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/update.json',
+    'https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/update.json',
+    'https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/update.json'
+  ];
+
+  function fetchJson(u, ms){
+    return new Promise(function(ok, no){
+      var c = new AbortController();
+      var t = setTimeout(function(){ c.abort(); }, ms);
+      fetch(u + (u.indexOf('?') < 0 ? '?' : '&') + 't=' + Date.now(), { signal: c.signal, cache: 'no-store' })
+        .then(function(r){ clearTimeout(t); if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
+        .then(ok)
+        .catch(function(e){ clearTimeout(t); no(e); });
+    });
+  }
+  function tryLine(i){
+    if(i >= LINES.length) return Promise.reject(new Error('all failed'));
+    return fetchJson(LINES[i], 6000).then(function(j){ return { j: j, i: i }; }).catch(function(){ return tryLine(i + 1); });
+  }
+
+  tryLine(0).then(function(r){
+    var j = r.j;
+    var v = j.versionName || ('v' + j.versionCode);
+    $('verName').textContent = '🎓 作业搭子 ' + v;
+    if(j.notes){ $('notes').textContent = j.notes; }
+    var urls = j.urls || [];
+    var apk = urls[r.i] || urls[0] || j.url || FALLBACK;
+    var b = $('dlBtn');
+    b.disabled = false;
+    b.textContent = '⬇️ 下载 ' + v + ' 安装包';
+    b.onclick = function(){ window.location.href = apk; };
+  }).catch(function(){
+    $('verName').textContent = '暂时获取不到版本信息';
+    var b = $('dlBtn');
+    b.disabled = false;
+    b.textContent = '⬇️ 直接下载最新安装包';
+    b.onclick = function(){ window.location.href = FALLBACK; };
+    $('st').textContent = '网络原因版本信息获取失败，已切换为直链下载。';
+  });
+})();
+</script>
+</body>
+</html>
