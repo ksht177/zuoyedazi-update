@@ -42,7 +42,7 @@ button.dl:active{transform:scale(.98);}
 <script>
 (function(){
   var $ = function(id){ return document.getElementById(id); };
-  var FALLBACK = 'https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.6.0.apk';
+  var FALLBACK = 'https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.6.1.apk';
   var LINES = [
     'https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/update.json',
     'https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/update.json',
@@ -60,29 +60,47 @@ button.dl:active{transform:scale(.98);}
         .catch(function(e){ clearTimeout(t); no(e); });
     });
   }
-  function tryLine(i){
-    if(i >= LINES.length) return Promise.reject(new Error('all failed'));
-    return fetchJson(LINES[i], 6000).then(function(j){ return { j: j, i: i }; }).catch(function(){ return tryLine(i + 1); });
+
+  /* 并行收集所有线路，取版本号最高者（避免首选线路缓存滞后） */
+  function collectBest(){
+    return new Promise(function(done){
+      var pending = LINES.length, best = null, finished = false;
+      LINES.forEach(function(lineUrl, i){
+        var called = false;
+        var settle = function(){
+          if (called) { return; }
+          called = true;
+          pending--;
+          if (pending === 0 && !finished) { finished = true; done(best); }
+        };
+        fetchJson(lineUrl, 6000).then(function(j){
+          if (j && (!best || (j.versionCode || 0) > (best.j.versionCode || 0))) { best = { j: j, i: i }; }
+          settle();
+        }).catch(function(){ settle(); });
+      });
+    });
   }
 
-  tryLine(0).then(function(r){
-    var j = r.j;
-    var v = j.versionName || ('v' + j.versionCode);
-    $('verName').textContent = '🎓 作业搭子 ' + v;
-    if(j.notes){ $('notes').textContent = j.notes; }
-    var urls = j.urls || [];
-    var apk = urls[r.i] || urls[0] || j.url || FALLBACK;
-    var b = $('dlBtn');
-    b.disabled = false;
-    b.textContent = '⬇️ 下载 ' + v + ' 安装包';
-    b.onclick = function(){ window.location.href = apk; };
-  }).catch(function(){
-    $('verName').textContent = '暂时获取不到版本信息';
-    var b = $('dlBtn');
-    b.disabled = false;
-    b.textContent = '⬇️ 直接下载最新安装包';
-    b.onclick = function(){ window.location.href = FALLBACK; };
-    $('st').textContent = '网络原因版本信息获取失败，已切换为直链下载。';
+  collectBest().then(function(r){
+    if (r){
+      var j = r.j;
+      var v = j.versionName || ('v' + j.versionCode);
+      $('verName').textContent = '🎓 作业搭子 ' + v;
+      if (j.notes){ $('notes').textContent = j.notes; }
+      var urls = j.urls || [];
+      var apk = urls[r.i] || urls[0] || j.url || FALLBACK;
+      var b = $('dlBtn');
+      b.disabled = false;
+      b.textContent = '⬇️ 下载 ' + v + ' 安装包';
+      b.onclick = function(){ window.location.href = apk; };
+    } else {
+      $('verName').textContent = '暂时获取不到版本信息';
+      var b = $('dlBtn');
+      b.disabled = false;
+      b.textContent = '⬇️ 直接下载最新安装包';
+      b.onclick = function(){ window.location.href = FALLBACK; };
+      $('st').textContent = '网络原因版本信息获取失败，已切换为直链下载。';
+    }
   });
 })();
 </script>
