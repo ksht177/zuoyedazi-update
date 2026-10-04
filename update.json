@@ -1,18 +1,18 @@
 {
-  "versionCode": 24,
-  "versionName": "1.6.4",
-  "notes": "📎反馈支持上传附件（图片/视频/文件）；🌧️雨声背景无缝循环；反馈提交流程修复",
-  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.4.apk?v=24a",
+  "versionCode": 25,
+  "versionName": "1.6.5",
+  "notes": "Ciallo～(∠・ω< )⌒☆\n更新并优化了多处细节",
+  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.5.apk?v=25a",
   "urls": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.4.apk?v=24a",
-    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.4.apk?v=24a",
-    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.6.4.apk?v=24a",
-    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.4.apk?v=24a"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.5.apk?v=25a",
+    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.5.apk?v=25a",
+    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.6.5.apk?v=25a",
+    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.5.apk?v=25a"
   ],
   "sig": {
     "alg": "RS256",
-    "hash": "bb4ddc7a8f6f886b38f989e8ea107fb6680d05eda4be78ec637c8266baaf818c",
-    "value": "wMYzvUyvagD0AT7f2DZJGy9yClXLa6rjArbr10o98MTc5ilkcRl0waWobqVAGBFZic/UnciSk1868CLyZqrE0OmKs68HTluleBK0lr+j28QL5rpCjPw1dDPCTk0lkxvLpuIEDiYUJcdQrqssf28ytI+t4IvAPZ6JcnZN9ZpOHyhicoUKoUJUPwriSn4mU8hx1dd1yJg7hQgslbb3dEhTl/KJL1V/5m6IupASr5ktbyRIWwRMMODGk9hFwsWGdp11erTgRXo89JVxQyqNe5iJjsXSFA6OQpxDDrnqW2bTHmNiT0NnxhVQICg/y9+0bSRIdMlcKWUO451mRumMB9yfKQ==",
-    "ts": 1791101270517
+    "hash": "ee6f767c0abfb2c08c76995819aaa30116a732770a5dc31abd38f1d873e774ad",
+    "value": "czlKCKmBuIeTgZFnqQBqpMWOU819BO0dfDYBs8B+jfu5MSjmjjk/LrfWC71ybWmJc71faEmPq+4OvNgvoYdn9jXL9HAJ+NZBeTwpfjQSLLtZYtI2XTqrsN42r/tAk6vllyV3PjEYmYa10Yq/kvqfW8GCRryzKt8lXOok4MdptTi/3EvX4Hb3CpFsc5Y5OcTM4e4YzXiq7lVCXDC4F3hnxxHGagPVctFCKL6AiNPQ1DmwVdMGfox44OEZJ9xNDrX4fqIeBWpybad34VRuojgbC0ITzj6axBq3whiaLIjOz9DK2vsnj5lOJ7tJU+k/wNhsN2TWuaZGod87wctM+wQnMQ==",
+    "ts": 1791122936828
   }
 }
