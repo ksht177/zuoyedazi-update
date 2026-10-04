@@ -1,18 +1,18 @@
 {
-  "versionCode": 23,
-  "versionName": "1.6.3",
-  "notes": "🔔 报时升级：进度条+自定义时间+修复无声；修复伙伴偶发消失；修复专注分钟统计",
-  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.3.apk?v=23a",
+  "versionCode": 24,
+  "versionName": "1.6.4",
+  "notes": "📎反馈支持上传附件（图片/视频/文件）；🌧️雨声背景无缝循环；反馈提交流程修复",
+  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.4.apk?v=24a",
   "urls": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.3.apk?v=23a",
-    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.3.apk?v=23a",
-    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.6.3.apk?v=23a",
-    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.3.apk?v=23a"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.4.apk?v=24a",
+    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.4.apk?v=24a",
+    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.6.4.apk?v=24a",
+    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.4.apk?v=24a"
   ],
   "sig": {
     "alg": "RS256",
-    "hash": "3c9e794cc1c9c1cb2c1fb305aa0c7ad5514c336ba3d27f3bda9daaae141cc80f",
-    "value": "C7IQMG70T32Y9Z9wYf47BXTtcn3TwIuuystj9GsIseyKSWCTU8grDyXQPnzMW9dC7hjpJ4+uy7DKBAk/G8bQGYts+NQtWipcoGLkV2/rNCmd9o34k0LHSO7so4RxYEFZHuGegCEc0Td2gY5bQmpD5G+jsXufO4oMCd+2B9+l7djX2BumYEO7taybK8bzP2TP0EjXHETEC6sWYG/W5+/86H5Cp8qF+QIjIUal56+4sZ2fBUA49nIOUXvhG4mNHNTb68ttXdm4jae1ZvkaEPtIOfv6HnK6K+mdJklc8qv5AsuEQ+8PDtC1gbjK/+/km1e6aT673h557jcOle4hJSzIAQ==",
-    "ts": 1791089612488
+    "hash": "bb4ddc7a8f6f886b38f989e8ea107fb6680d05eda4be78ec637c8266baaf818c",
+    "value": "wMYzvUyvagD0AT7f2DZJGy9yClXLa6rjArbr10o98MTc5ilkcRl0waWobqVAGBFZic/UnciSk1868CLyZqrE0OmKs68HTluleBK0lr+j28QL5rpCjPw1dDPCTk0lkxvLpuIEDiYUJcdQrqssf28ytI+t4IvAPZ6JcnZN9ZpOHyhicoUKoUJUPwriSn4mU8hx1dd1yJg7hQgslbb3dEhTl/KJL1V/5m6IupASr5ktbyRIWwRMMODGk9hFwsWGdp11erTgRXo89JVxQyqNe5iJjsXSFA6OQpxDDrnqW2bTHmNiT0NnxhVQICg/y9+0bSRIdMlcKWUO451mRumMB9yfKQ==",
+    "ts": 1791101270517
   }
 }
