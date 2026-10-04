@@ -1,18 +1,18 @@
 {
-  "versionCode": 21,
-  "versionName": "1.6.1",
-  "notes": "🌀 修复界面虚化在切换页面时闪动的问题，优化切页流畅度",
-  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.1.apk?v=21a",
+  "versionCode": 22,
+  "versionName": "1.6.2",
+  "notes": "🛠 修复学习伙伴「沃雅妮莎」左右形态问题；修复反馈通道；安装包瘦身优化",
+  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.2.apk?v=22a",
   "urls": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.1.apk?v=21a",
-    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.1.apk?v=21a",
-    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.6.1.apk?v=21a",
-    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.1.apk?v=21a"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.2.apk?v=22a",
+    "https://ghfast.top/https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.2.apk?v=22a",
+    "https://cdn.jsdelivr.net/gh/ksht177/zuoyedazi-update@main/zuoyedazi-v1.6.2.apk?v=22a",
+    "https://raw.githubusercontent.com/ksht177/zuoyedazi-update/main/zuoyedazi-v1.6.2.apk?v=22a"
   ],
   "sig": {
     "alg": "RS256",
-    "hash": "a7f20d7b01bc1db472d4281cc29656a6f275f7e25218478f5f0675adf60bf6bc",
-    "value": "ZEdNFZNuNqJ+lUcg8oM6qnUwaEj4yeV11Eg02O+w/LdCZSF4PWz+Ff16yDVqpkIoOVJT6ycqg/alPS1cxsrSORQdoTMC2aKxNXPw9seDm4FQec663DhvyRGbtS5K8GHRxt8S0qF+x1oPvzFwLeu/RcFB1JCNf8dti7vvJzMWz7M919V49w0sjjUgVaZRtUiKlX35WfmOuLotGO6cC8HtuBrlKG3xMZahPwLmoKcKy/rK86bmzziTjdOuUOchZWxN8Scgnl4+j7Z4DrTMXbbuvc5LJ6fU481nvuLtKjsHu5YMscri8jeuhU0VTv3AADLxGoKxgVuAr1BirfTO+Uo6EQ==",
-    "ts": 1791079826639
+    "hash": "0aff0f072711e8e0314edbef9d88f201cdff6f8a5d5d33c1ea5c0cbba0b38e31",
+    "value": "T+FSXXbUu2A+8QN7s/lEz2G194J9zhYbce3wTMKFkFjRxQCmNjM/cvq1DTcd2RpbbLRxONRn3/VGsr5hHPwlFwoNC7Hn7eTVHfo1QYBTTTKEte8NYeQVVBZC8+nslZJycesTKJ/xcpV+pT0lIrk5w92zlJd0dIi/yLD7dsAIa759FPdiLxzrThSW3aNPTySUjoguSpE1BFF8THqY2CbmUsgrNy+BCXK0O4m6EPJzF82Ze8hjxLQSj3IxzSs85yhe/gnBtXwKddl87qNR+3L2tUi3R9hFXVU2GPKlzAhJXcAk1nrMaeEYCzwUap2z9NhXIHgsevTa2XeZwfBx25etcQ==",
+    "ts": 1791084036339
   }
 }
